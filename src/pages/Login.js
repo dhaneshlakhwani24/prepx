@@ -78,9 +78,7 @@ const SubLink = styled(Link)`
 `;
 
 export default function Login() {
-  const theme = useTheme();
   const navigate = useNavigate();
-
   const [email, setEmail] = useState("");
   const [password, setPassword] = useState("");
 
