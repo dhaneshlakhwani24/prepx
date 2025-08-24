@@ -1,5 +1,5 @@
 import React, { useState } from "react";
-import styled, { useTheme } from "styled-components";
+import styled from "styled-components";
 import { motion } from "framer-motion";
 import { login, signInWithGoogle } from "../utils/auth";  // Firebase auth helpers
 import { Link, useNavigate } from "react-router-dom";
